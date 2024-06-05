@@ -1,0 +1,10 @@
+---
+
+# Monitoring configs
+monitoring:
+  checking_frequency: 1 # Time between each check in seconds
+  directories_to_monitor:
+    - '.\examples_to_monitor'
+  hashing_algorithm: "md5" # Supported algorithms: md5, sha256, crc32
+  baseline_filename: "baseline.csv"
+  log_file: "n3_fim.log"
