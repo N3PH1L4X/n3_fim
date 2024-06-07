@@ -17,7 +17,7 @@ The project was inspired by this [Josh Madakor's video](https://www.youtube.com/
 ## Heads up
 As stated earlier this was built as a learning project so keep in mind it may have bugs and may break sometimes. If you find a bug please consider letting me know and I would gladly fix it!
 
-## Build the project
+## Test the project
 If you want to try it out then you can clone the repository and run the prebuilt .exe file or you can build the binaries yourself. I strongly suggest you to inspect the code and build it yourself for your specific system.
 If you choose to built the binary yourself then you will need to install [Git](https://www.git-scm.com/downloads) and [Go](https://go.dev/doc/install) for your local system.
 You can use these commands:
@@ -33,7 +33,7 @@ $ ./n3_fim.exe baseline
 $ ./n3_fim.exe monitor
 ```
 
-## Colaboration
+## Collaboration
 If you find it useful then feel free to use the code as you want. I'm also open to suggestions on how to make this project more stable, cleaner and better in general. Thank you!
 
 ## Screenshots
