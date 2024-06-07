@@ -10,8 +10,9 @@ The project was inspired by this [Josh Madakor's video](https://www.youtube.com/
 2. Monitor the specified routes using the information stored in the baseline file and checking if a file was either modified or created (It currently does not check if a file was deleted)
 4. Configuration based functionalities. You can choose what directories in your filesystem you want to monitor by adding them to the config.yaml file. If there is no such file the program will create a default one
 5. Specify the time between each iteration of file checking. This is 1 second by default
-6. Stores any flagged file in a .log file indicating the timestamp of detection, the file flagged and the reason why it was flagged
-7. An example directory with multiple files to test the functionality
+6. Multiple hashing algorithms supported. You can choose MD5, SHA256 and CRC32
+7. Stores any flagged file in a .log file indicating the timestamp of detection, the file flagged and the reason why it was flagged
+8. An example directory with multiple files to test the functionality
 
 ## Heads up
 As stated earlier this was built as a learning project so keep in mind it may have bugs and may break sometimes. If you find a bug please consider letting me know and I would gladly fix it!
